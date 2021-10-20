@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>My Portfolio | Pratama Ramadhani Wijaya</title>
+    <link rel="shortcut icon" href="Foto/logo-favicon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="Foto/logo-itts.svg" alt="" width="98.5" height="40" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="music.html">My Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <section class="container-fluid py-5" id="portfolio>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold text-uppercase text-danger mb-2 py-5">My Portfolio</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center mb-2">
+              <ul class="list-inline mb-lg-5" id="portfolio-flters">
+                  <li class="btn btn-sm btn-outline-danger m-1 active"  data-filter="*">All</li>
+                  <li class="btn btn-sm btn-outline-danger m-1 " data-filter=".first">Video</li>
+                  <li class="btn btn-sm btn-outline-danger m-1" data-filter=".second">UI/UX Design</li>
+                  <li class="btn btn-sm btn-outline-danger m-1" data-filter=".third">Photography</li>
+              </ul>
+          </div>
+      </div>
+      <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+            <div class="position-relative overflow-hidden mb-2">
+                <img class="img-fluid rounded w-100" src="Foto/portfolio/photo-3.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+              <div class="position-relative overflow-hidden mb-2">
+                <video controls class="img-fluid rounded w-100" alt=""><source src="video/video.mp4" type="video/mp4"></video>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+            <div class="position-relative overflow-hidden mb-2">
+                <img class="img-fluid rounded w-100" src="Foto/portfolio/photo-1.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+              <div class="position-relative overflow-hidden mb-2">
+                  <img class="img-fluid rounded w-100" src="Foto/portfolio/ui-design-1.png" alt="">
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+              <div class="position-relative overflow-hidden mb-2">
+                  <img class="img-fluid rounded w-100" src="Foto/portfolio/photo-2.png" alt="">
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+              <div class="position-relative overflow-hidden mb-2">
+                  <img class="img-fluid rounded w-100" src="Foto/portfolio/ui-design-2.png" alt="">
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+              <div class="position-relative overflow-hidden mb-2">
+                  <img class="img-fluid rounded w-100" src="Foto/portfolio/photo-4.png" alt="">
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Start -->
+    <section class="container-fluid bg-danger text-white mt-5 py-1 px-sm-1 px-md-5">
+      <div class="container text-center py-5">
+        <div class="d-flex justify-content-center mb-4">
+          <a class="btn btn-light btn-social px-2 me-3 text-danger" href="https://www.facebook.com/pratama.ramadhani.125?ref=bookmarks&_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-light btn-social px-2 me-3 text-danger" href="https://twitter.com/callmebujank"><i class="fab fab fa-twitter"></i></a>
+          <a class="btn btn-light btn-social px-2 me-3 text-danger" href="https://www.instagram.com/ramadhani059/"><i class="fab fa-instagram"></i></a>
+          <a class="btn btn-light btn-social px-2 me-3 text-danger" href="https://github.com/ramadhani059"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="m-0">Copyright &copy; 2021 Information System. Build by Pratama Ramadhani Wijaya.</p>
+      </div>
+    </section>
+    <!-- Footer End -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
